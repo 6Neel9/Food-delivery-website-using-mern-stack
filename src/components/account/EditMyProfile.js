@@ -255,13 +255,13 @@ function EditMyProfile() {
               errors={errors}
               register={register}
               name="userPassword"
-              placeholder="Tu contraseña..."
+              placeholder="PassWord..."
             />
             <UserNewPasswordInput
               errors={errors}
               register={register}
               name="newPassword"
-              placeholder="Nueva contraseña..."
+              placeholder="New Password..."
             />
           </>
         ) : null}
